@@ -1,8 +1,10 @@
+import ServerFormDirect from "@/components/ServerFormDirect";
+
 const CreateBercandaanPage = () => {
   return (
-    <div>
-      <h1>Create Bercandaan Page</h1>
-    </div>
+    <>
+      <ServerFormDirect />
+    </>
   );
 };
 

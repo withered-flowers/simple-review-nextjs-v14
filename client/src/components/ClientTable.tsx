@@ -1,6 +1,22 @@
 "use client";
 
+import { Bercandaan } from "@/externals/types/bercandaan";
+import { useEffect, useState } from "react";
+
 const ClientTable = () => {
+  const [arrBercandaan, setArrBercandaan] = useState<Bercandaan[]>([]);
+
+  useEffect(() => {
+    (async () => {
+      const response = await fetch("http://localhost:3001/bercandaan", {
+        method: "GET",
+      });
+      const responseJson: Bercandaan[] = await response.json();
+
+      setArrBercandaan(responseJson);
+    })();
+  }, []);
+
   return (
     <table className="table-auto bg-gray-100">
       <thead>
@@ -17,12 +33,14 @@ const ClientTable = () => {
         </tr>
       </thead>
       <tbody>
-        <tr>
-          <td className="px-4 py-2">1</td>
-          <td className="px-4 py-2">Lorem Ipsum</td>
-          <td className="px-4 py-2">Dolor sit amet</td>
-          <td className="px-4 py-2">General</td>
-        </tr>
+        {arrBercandaan.map((bercanda) => (
+          <tr key={bercanda.id}>
+            <td className="px-4 py-2">{bercanda.id}</td>
+            <td className="px-4 py-2">{bercanda.setup}</td>
+            <td className="px-4 py-2">{bercanda.punchline}</td>
+            <td className="px-4 py-2">{bercanda.type}</td>
+          </tr>
+        ))}
       </tbody>
     </table>
   );

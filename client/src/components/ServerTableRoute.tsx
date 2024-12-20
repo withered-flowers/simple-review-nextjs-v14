@@ -1,4 +1,10 @@
-const ServerTableRoute = () => {
+import { Bercandaan } from "@/externals/types/bercandaan";
+
+type Props = {
+  dataKumpulanBercanda: Bercandaan[];
+};
+
+const ServerTableRoute = ({ dataKumpulanBercanda }: Props) => {
   return (
     <table className="table-auto bg-gray-100">
       <thead>
@@ -15,12 +21,20 @@ const ServerTableRoute = () => {
         </tr>
       </thead>
       <tbody>
-        <tr>
+        {/* <tr>
           <td className="px-4 py-2">1</td>
           <td className="px-4 py-2">Lorem Ipsum</td>
           <td className="px-4 py-2">Dolor sit amet</td>
           <td className="px-4 py-2">General</td>
-        </tr>
+        </tr> */}
+        {dataKumpulanBercanda.map((bercanda) => (
+          <tr key={bercanda.id}>
+            <td className="px-4 py-2">{bercanda.id}</td>
+            <td className="px-4 py-2">{bercanda.setup}</td>
+            <td className="px-4 py-2">{bercanda.punchline}</td>
+            <td className="px-4 py-2">{bercanda.type}</td>
+          </tr>
+        ))}
       </tbody>
     </table>
   );

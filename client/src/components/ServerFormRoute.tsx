@@ -1,6 +1,11 @@
+import { formServerRouteActionHandler } from "@/externals/repositories/action";
+
 const ServerFormRoute = () => {
   return (
-    <form className="flex flex-col gap-2 w-full md:w-1/4 p-4 bg-gray-100">
+    <form
+      action={formServerRouteActionHandler}
+      className="flex flex-col gap-2 w-full md:w-1/4 p-4 bg-gray-100"
+    >
       <div>
         <p className="text-center text-xl font-semibold">
           Server Form - Route Handler

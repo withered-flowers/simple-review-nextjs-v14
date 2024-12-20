@@ -1,0 +1,8 @@
+POST http://localhost:3000/api/bercandaan
+Content-Type: application/json
+
+{
+  "setup": "Dari Postman",
+  "punchline": "Ini kembaliaannya",
+  "type": "nsfw"
+}

@@ -125,6 +125,42 @@
       "setup": "Apa yang paling menarik dari seorang wanita di pesta?",
       "punchline": "Perhatian banyak pria dan sedikit kode!",
       "type": "nsfw"
+    },
+    {
+      "id": "e23d",
+      "setup": "Iseng",
+      "punchline": "Lagi",
+      "type": "nsfw"
+    },
+    {
+      "id": "9af6",
+      "setup": "Bikin yang baru",
+      "punchline": "Masa sih jalan?",
+      "type": "general"
+    },
+    {
+      "id": "bf29",
+      "setup": "Dari Postman",
+      "punchline": "Ini kembaliaannya",
+      "type": "nsfw"
+    },
+    {
+      "id": "83ac",
+      "setup": "kayaknya",
+      "punchline": "sih gak aman",
+      "type": "general"
+    },
+    {
+      "id": "c20c",
+      "setup": "Bikin lagi",
+      "punchline": "sampe kenyang",
+      "type": "general"
+    },
+    {
+      "id": "709d",
+      "setup": "Iseng dari client",
+      "punchline": "masa sih jalan?",
+      "type": "nsfw"
     }
   ]
 }

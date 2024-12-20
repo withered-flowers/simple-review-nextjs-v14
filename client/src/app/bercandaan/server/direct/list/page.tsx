@@ -1,9 +1,14 @@
+// Server Component
 import ServerTableDirect from "@/components/ServerTableDirect";
+import { fetchBercandaan } from "@/externals/services/bercandaan";
 
-const ListBerCandaanPage = () => {
+// Functional Component
+const ListBerCandaanPage = async () => {
+  const bercandaan = await fetchBercandaan();
+
   return (
     <>
-      <ServerTableDirect />
+      <ServerTableDirect dataBercandaan={bercandaan} />
     </>
   );
 };

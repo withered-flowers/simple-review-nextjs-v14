@@ -1,127 +1,127 @@
 {
   "bercandaan": [
     {
-      "_id": "649d1221d3c3f3b2a56b7d9e",
+      "id": "649d1221d3c3f3b2a56b7d9e",
       "setup": "Kenapa komputer selalu dingin?",
       "punchline": "Karena selalu membuka Windows!",
       "type": "general"
     },
     {
-      "_id": "649d1221d3c3f3b2a56b7d9f",
+      "id": "649d1221d3c3f3b2a56b7d9f",
       "setup": "Apa yang terjadi jika kamu menyeberang jalan sambil bermain gitar?",
       "punchline": "Kamu bisa terjebak dalam riff!",
       "type": "general"
     },
     {
-      "_id": "649d1221d3c3f3b2a56b7da0",
+      "id": "649d1221d3c3f3b2a56b7da0",
       "setup": "Kenapa ayam tidak pernah menggunakan komputer?",
       "punchline": "Karena takut di-hack!",
       "type": "general"
     },
     {
-      "_id": "649d1221d3c3f3b2a56b7da1",
+      "id": "649d1221d3c3f3b2a56b7da1",
       "setup": "Kenapa matematika selalu kesepian?",
       "punchline": "Karena punya banyak masalah!",
       "type": "general"
     },
     {
-      "_id": "649d1221d3c3f3b2a56b7da2",
+      "id": "649d1221d3c3f3b2a56b7da2",
       "setup": "Apa yang dilakukan seekor komputer ketika lapar?",
       "punchline": "Makan byte!",
       "type": "general"
     },
     {
-      "_id": "649d1221d3c3f3b2a56b7da3",
+      "id": "649d1221d3c3f3b2a56b7da3",
       "setup": "Apa yang terjadi jika kamu menjatuhkan komputer ke sungai?",
       "punchline": "Itu akan menjadi laptop basah!",
       "type": "general"
     },
     {
-      "_id": "649d1221d3c3f3b2a56b7da4",
+      "id": "649d1221d3c3f3b2a56b7da4",
       "setup": "Mengapa buku sejarah sangat jujur?",
       "punchline": "Karena selalu mencatat masa lalu!",
       "type": "general"
     },
     {
-      "_id": "649d1221d3c3f3b2a56b7da5",
+      "id": "649d1221d3c3f3b2a56b7da5",
       "setup": "Apa yang terjadi jika kamu memberi kucing sebuah laptop?",
       "punchline": "Itu akan menjadi 'cat-alog'!",
       "type": "general"
     },
     {
-      "_id": "649d1221d3c3f3b2a56b7da6",
+      "id": "649d1221d3c3f3b2a56b7da6",
       "setup": "Kenapa sepatu itu tidak pernah merasa bosan?",
       "punchline": "Karena mereka selalu berada di langkah yang benar!",
       "type": "general"
     },
     {
-      "_id": "649d1221d3c3f3b2a56b7da7",
+      "id": "649d1221d3c3f3b2a56b7da7",
       "setup": "Kenapa pemrogram tidak bisa bermain kartu?",
       "punchline": "Karena mereka selalu mencari bug!",
       "type": "general"
     },
     {
-      "_id": "649d1221d3c3f3b2a56b7da8",
+      "id": "649d1221d3c3f3b2a56b7da8",
       "setup": "Apa yang dikatakan oleh lampu jalan kepada pengendara?",
       "punchline": "Hati-hati, jangan terburu-buru!",
       "type": "general"
     },
     {
-      "_id": "649d1221d3c3f3b2a56b7da9",
+      "id": "649d1221d3c3f3b2a56b7da9",
       "setup": "Apa yang terjadi jika kucing bisa menggunakan internet?",
       "punchline": "Itu akan menjadi dunia penuh 'cat memes'!",
       "type": "general"
     },
     {
-      "_id": "649d1221d3c3f3b2a56b7daa",
+      "id": "649d1221d3c3f3b2a56b7daa",
       "setup": "Kenapa burung tidak pernah belajar matematika?",
       "punchline": "Karena mereka lebih suka terbang daripada berhitung!",
       "type": "general"
     },
     {
-      "_id": "649d1221d3c3f3b2a56b7dab",
+      "id": "649d1221d3c3f3b2a56b7dab",
       "setup": "Kenapa sel-sel tubuh manusia tidak pernah berkelahi?",
       "punchline": "Karena mereka selalu bekerja sama!",
       "type": "general"
     },
     {
-      "_id": "649d1221d3c3f3b2a56b7dac",
+      "id": "649d1221d3c3f3b2a56b7dac",
       "setup": "Apa yang dilakukan seorang pelukis ketika sakit?",
       "punchline": "Dia beristirahat di kanvas!",
       "type": "general"
     },
     {
-      "_id": "649d1221d3c3f3b2a56b7dad",
+      "id": "649d1221d3c3f3b2a56b7dad",
       "setup": "Kenapa ikan tidak suka bersepeda?",
       "punchline": "Karena mereka lebih suka berenang!",
       "type": "general"
     },
     {
-      "_id": "649d1221d3c3f3b2a56b7dae",
+      "id": "649d1221d3c3f3b2a56b7dae",
       "setup": "Apa yang dikatakan pohon kepada angin?",
       "punchline": "Hati-hati, aku sedang tumbuh!",
       "type": "general"
     },
     {
-      "_id": "649d1221d3c3f3b2a56b7daf",
+      "id": "649d1221d3c3f3b2a56b7daf",
       "setup": "Apa yang terjadi jika kamu menaruh es krim di atas komputer?",
       "punchline": "Itu akan meleleh ke dalam byte!",
       "type": "general"
     },
     {
-      "_id": "649d1221d3c3f3b2a56b7db0",
+      "id": "649d1221d3c3f3b2a56b7db0",
       "setup": "Kenapa komputer tidak bisa menjadi atlet?",
       "punchline": "Karena mereka selalu crash!",
       "type": "general"
     },
     {
-      "_id": "649d1221d3c3f3b2a56b7db1",
+      "id": "649d1221d3c3f3b2a56b7db1",
       "setup": "Apa yang dikatakan seorang pria kepada wanita di bar?",
       "punchline": "Mau minum sesuatu? Aku punya koneksi WiFi yang cepat!",
       "type": "nsfw"
     },
     {
-      "_id": "649d1221d3c3f3b2a56b7db2",
+      "id": "649d1221d3c3f3b2a56b7db2",
       "setup": "Apa yang paling menarik dari seorang wanita di pesta?",
       "punchline": "Perhatian banyak pria dan sedikit kode!",
       "type": "nsfw"

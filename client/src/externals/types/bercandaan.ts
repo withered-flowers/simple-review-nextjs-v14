@@ -1,10 +1,10 @@
 type Bercandaan = {
-  _id: string;
+  id: string;
   setup: string;
   punchline: string;
   type: string;
 };
 
-type BercandaanInput = Omit<Bercandaan, "_id">;
+type BercandaanInput = Omit<Bercandaan, "id">;
 
 export type { Bercandaan, BercandaanInput };
